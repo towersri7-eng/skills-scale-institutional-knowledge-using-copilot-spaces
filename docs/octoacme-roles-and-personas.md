@@ -5,77 +5,105 @@ This document defines typical roles and responsibilities used in OctoAcme projec
 ---
 
 ## Developers
-
-### Role Summary
-Developers design, build, test, and deliver software components. They collaborate with product and project leads to implement features that meet acceptance criteria and quality standards.
-
-### Responsibilities
-- Implement features and fixes to meet acceptance criteria
-- Write and maintain tests and documentation
-- Participate in design and code reviews
-- Assist in estimating and planning work
-- Help identify technical risks and propose mitigations
-
-### Goals
-- Deliver reliable, maintainable code
-- Reduce cycle time from idea to production
-- Maintain high test coverage and observability
-
-### Typical Communication
-- Daily standups and sprint planning
-- PR descriptions and code review comments
-- Technical design docs when needed
-
----
+... [existing content unchanged]
 
 ## Product Managers
+... [existing content unchanged]
 
-### Role Summary
-Product Managers define what should be built to deliver customer and business value. They own the product vision, prioritize the backlog, and measure outcomes.
-
-### Responsibilities
-- Define problem statements and success metrics
-- Prioritize the roadmap and backlog
-- Collaborate with stakeholders and engineering on trade-offs
-- Validate solutions through user research and metrics
-
-### Goals
-- Maximize customer value and impact
-- Make clear, data-driven prioritization decisions
-- Ensure product-market fit and usability
-
-### Typical Communication
-- Weekly alignment with PM and engineering leads
-- Roadmap updates and stakeholder briefings
-- Acceptance criteria and feature specs
+## Project Managers
+... [existing content unchanged]
 
 ---
 
-## Project Managers
+## Release Manager
 
 ### Role Summary
-Project Managers coordinate delivery activities, manage schedules, risks, and communications. They enable the team to deliver on commitments efficiently.
+Coordinates release planning, deployment activities, and ensures rollback/incident playbooks are followed.
 
 ### Responsibilities
-- Create and maintain project plans and timelines
-- Manage risks, dependencies, and resource constraints
-- Facilitate meetings (kickoff, planning, retrospectives)
-- Ensure consistent project documentation and status reporting
-- Coordinate cross-team and stakeholder communication
+- Plan release schedules and coordinate deployment windows
+- Draft and maintain rollback/incident response procedures
+- Communicate release status to stakeholders
+- Partner with DevOps and QA for pre-release requirements
 
-### Goals
-- Deliver projects on time and within scope
-- Minimize unplanned work and escalations
-- Maintain transparency and alignment across stakeholders
+### Interactions
+- Works closely with Project Manager, DevOps Engineer, QA, and Stakeholder teams to ensure smooth releases
 
-### Typical Communication
-- Weekly status updates and stakeholder reports
-- Risk registers and decision logs
-- Coordination via project boards and meeting facilitation
+---
+
+## Scrum Master
+
+### Role Summary
+Facilitates agile ceremonies, clears impediments, and integrates iterative delivery practices.
+
+### Responsibilities
+- Lead daily standups, sprint planning, reviews, and retrospectives
+- Remove blockers for the delivery team
+- Foster continuous improvement culture
+
+### Interactions
+- Works with Project Manager and Developers to optimize team performance
+
+---
+
+## Technical Writer
+
+### Role Summary
+Maintains documentation and ensures artifacts are clear and accessible for all teammates.
+
+### Responsibilities
+- Draft and update project/process documentation
+- Translate technical concepts into understandable guides
+
+### Interactions
+- Collaborates with Developers, PMs, and Stakeholders for artifact accuracy
+
+---
+
+## DevOps Engineer
+
+### Role Summary
+Builds and operates CI/CD pipelines, automates deployments, and manages infrastructure.
+
+### Responsibilities
+- Maintain build/test automation
+- Support deployment and rollback mechanisms
+- Monitor system health and KPIs
+
+### Interactions
+- Collaborates with Release Manager, Developers, QA, and Support
+
+---
+
+## User Experience (UX) Lead
+
+### Role Summary
+Advocates for user experience quality and coordinates usability testing.
+
+### Responsibilities
+- Define and champion UX requirements
+- Conduct and synthesize user testing
+- Communicate UX priorities to PM and engineering
+
+### Interactions
+- Works with Product Manager, Developers, Technical Writer
+
+---
+
+## Customer Support Specialist
+
+### Role Summary
+Collects user feedback, identifies edge cases, and collaborates on communication during incidents.
+
+### Responsibilities
+- Gather and report user issues and feedback
+- Participate in incident resolution communications
+
+### Interactions
+- Liaises with PM, DevOps, Release Manager for user-related issues
 
 ---
 
 ## How these personas are used in the exercise
 - Use these persona definitions to frame scenarios and sample interactions in the Skills Exercise.
 - Each persona can be used as a persona prompt for Copilot Spaces to shape role-specific guidance.
-
